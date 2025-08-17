@@ -33,6 +33,8 @@ app.post("/ask",fileUpload,async(req,res)=>{
     } catch (error) {
         console.log(error);
         
+        console.log(error.message);
+        
     }
 });
 
