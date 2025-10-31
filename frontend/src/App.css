@@ -1,0 +1,61 @@
+
+
+body{
+  position: relative;
+  height: 100vh;
+  font-size: 16px;
+}
+
+
+
+#heading
+{
+
+  text-align: center;
+ 
+  
+}
+
+.hero-section{
+ text-align: center;
+padding: 3px;
+}
+
+.preview{
+  width: 20rem;
+  height: 18rem;
+  border-radius: 10px;
+  
+}
+.image{
+  font-size: 6rem;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  padding: 5px 24px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+button:hover{
+    background-color: white;
+  color: black;
+  border:1px solid black;
+}
+
+.infinity{
+  width: 1.9rem;
+  height: 1.09rem;
+}
+
+#logo1{
+  text-align: center;
+}
+
+#logo{
+  width:300px ;
+  height: 291px;
+}

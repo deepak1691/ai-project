@@ -6,7 +6,7 @@ const storage=multer.diskStorage({
         callback(null,"uploads")
     },
       filename(req, file,callback){
-        const id=uuid();
+        const id=uuid();   
         const extName=file.originalname.split(".").pop();
         const fileName=`${id}.${extName}`
         callback(null,fileName)
